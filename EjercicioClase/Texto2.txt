@@ -1,0 +1,4 @@
+La programación es una herramienta poderosa para resolver problemas complejos. 
+Permite automatizar tareas, analizar datos y crear aplicaciones interactivas que facilitan la vida diaria. 
+Aprender a programar desarrolla la lógica, la creatividad y la capacidad de estructurar soluciones de manera eficiente. 
+Además, conocer distintos lenguajes de programación abre la puerta a múltiples oportunidades profesionales en áreas como desarrollo de software, inteligencia artificial y análisis de datos.

@@ -1,0 +1,4 @@
+Python se ha convertido en uno de los lenguajes de programación más populares del mundo. 
+Aprender Python permite a los desarrolladores crear desde simples scripts hasta complejas aplicaciones web. 
+Muchas universidades incluyen Python en sus cursos de introducción a la programación porque Python combina simplicidad y potencia. Además, la comunidad de Python es muy activa, lo que significa que siempre hay recursos y bibliotecas disponibles para Python. Incluso proyectos de inteligencia artificial y análisis de datos se realizan principalmente en Python. 
+Por eso, dominar Python abre muchas puertas en el mundo de la tecnología.

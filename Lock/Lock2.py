@@ -9,8 +9,7 @@ class cliente(threading.Thread):
     def __init__(self,nombre):
         super().__init__()
         self.nombre = nombre
-    def run(self):
-        
+    def run(self):    
         for _ in range(20):
             i = random.randint(0, ASIENTOS - 1)
             # Región crítica SIN proteger

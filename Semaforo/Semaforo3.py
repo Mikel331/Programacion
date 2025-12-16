@@ -11,11 +11,11 @@ def productor():
     for i in range(NUM_ITEMS):
         semaforo.acquire()
         while len(buffer) >= MAX_ITEMS:
-            pass  #
+            pass  
 
         item = f"item-{i}"
         buffer.append(item)
-        print(f"Produce {item}")
+        print(f"Produce {item},Buffer{buffer}")
         time.sleep(random.random() / 10)
         semaforo.release()
 
@@ -26,12 +26,14 @@ def consumidor():
             pass
 
         item = buffer.pop(0)
-        print(f"Consume {item}")
+        print(f"Consume {item},Buffer{buffer}")
         time.sleep(random.random() / 10)
         semaforo.release()
 
 t_prod = threading.Thread(target=productor, name="productor")
+t_prod = threading.Thread(target=productor, name="producto2")
 t_cons = threading.Thread(target=consumidor, name="consumidor")
+t_cons = threading.Thread(target=consumidor, name = "consumidor2")
 
 t_prod.start()
 t_cons.start()
